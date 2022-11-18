@@ -126,7 +126,7 @@ $query = mysqli_query($link,$empleado);
 		</form>
 	</main>
 	<div class="ajustador"><p class=Title5 style="color: white" font face="Alata" >Consulta de empleados</p></div>
-    <div class="users-table3" >
+    <div class="users-table4" >
         
         <table style="border: 6px solid #ee69c6;">
             <thead>
