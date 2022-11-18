@@ -7,8 +7,7 @@ if(!isset($_SESSION['usuario'])){
 	session_destroy();
 	
 }
-$empleado = "SELECT * FROM empleado";
-$query = mysqli_query($link,$empleado);
+
 ?>
 
 <!doctype html>
