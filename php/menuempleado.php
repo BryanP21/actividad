@@ -16,52 +16,7 @@ $query = mysqli_query($link,$empleado);
   	<head>
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-				    <!-- ============= -->
-				    <!-- Bootstrap CSS -->
-				    <!-- ============= -->
-	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	    <link rel="stylesheet" type="text/css" href="../css/main.css">
-		<link rel="stylesheet" type="text/css" href="../js/css/alertify.css">
-		<link rel="stylesheet" type="text/css" href="../js/css/themes/default.css">
-		<script src="../js/alertify.js"></script>
-		<script src="../js/jquery-3.6.1.min.js"></script>
-        <link type="text/css" href="../css/style.css" rel="stylesheet">
-	    <!-- <link rel="stylesheet" type="text/css" href="css/fonts.css"> -->
-	    <title>Maria's Pasteleria</title>
-	    <link rel="icon" href="../img/logos/Logos-MP-2021-02-02-06.ico">
-	</head>
-	<body class="fondo" style="overflow-x:hidden">
-					<!-- ====== -->
-				    <!-- NAVBAR -->
-				    <!-- ====== -->
 
-			<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light border-bottom px-3">
-		 	<a class="navbar-brand" href="index.html">
-		    	<img src="../img/logos/logos formato-08-A.png" width="150px" height="50px" class="d-inline-block" alt="">
-		  	</a>
-		  	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      		<span class="navbar-toggler-icon"></span>
-		  	</button>
-		  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
-		    <ul class="px-4 fs-4 navbar-nav navbar-text">
-		      <li class="nav-item active">
-		        <a class="px-3 nav-link " href="../pedidos/pedidos.php">Pedidos</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="px-3 nav-link" href="#">Productos</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="px-3 nav-link" href="cliente/menucliente.php">Clientes</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="px-3 nav-link" href="#">Empleados</a>
-		      </li>
-		      <li class="px-3 nav-item">
-		        <a class="nav-link" href="../agenda/index.php">Agenda</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
 
 <!-------------------------INICIO TABLA EMPLEADOS REGISTROS------------->
     <!---<div> <img src=../img/empleados/3.png class="logologregistros2"></div>--->
@@ -126,7 +81,7 @@ $query = mysqli_query($link,$empleado);
 		</form>
 	</main>
 	<div class="ajustador"><p class=Title5 style="color: white" font face="Alata" >Consulta de empleados</p></div>
-    <div class="users-table3" >
+    <div class="users-table4" >
         
         <table style="border: 6px solid #ee69c6;">
             <thead>
