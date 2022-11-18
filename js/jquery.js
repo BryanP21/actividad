@@ -1486,7 +1486,7 @@ $.extend( $.validator, {
 		},
 
 		// https://jqueryvalidation.org/equalTo-method/
-		equalTo: function( value, element, param ) {
+		equalTo: function( valor, element, param ) {
 
 			// Bind to the blur event of the target in order to revalidate whenever the target field is updated
 			var target = $( param );

@@ -7,8 +7,12 @@
 
 		include_once 'conexion.php';
 
-		$sql= "SELECT * from empleado where usuario= '$usuario'";
-	
+	//	$sql= "SELECT * from empleado where usuario= '$usuario'";
+	    $sqlquery = "UPDATE * from empleado where usuario= '$usuario'";
+echo 'hola';
+
+
+
 
 		$resultset= mysqli_query($link,$sql);
 		$row = mysqli_fetch_assoc($resultset);
@@ -17,7 +21,7 @@
 			$_SESSION['idempleado']= $row['idempleado'];
 			$_SESSION['usuario']= $row['usuario'];
 			$_SESSION['contrasena']=$row['contrasena'];
-			$_SESSION['idstatus']= $row['idstatus'];
+
 			$_SESSION['activo']= '1';
 			
             
