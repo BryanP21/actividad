@@ -30,14 +30,7 @@ $query = mysqli_query($link,$empleado);
 				<h4>Usuario</h4>
 				<input name='usuario' type='name' autocomplete="off" placeholder='Usuario' required />
 			</div>
-			<div class='field3'>
-				<h4>Tipo empleado</h4>
-				<select name='tipoempleado' required placeholder='Selecciona Rol' required>
-					<option selected disabled></option>
-					<option value="1">Administrador</option>
-					<option value="2">Empleado</option>
-				</select>
-			</div>
+			
 			<div class='field'>
 				<h4>Contraseña</h4>
 				<input name='contrasena' type='password' autocomplete="off" autocomplete placeholder='******' required/>
