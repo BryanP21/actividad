@@ -95,3 +95,12 @@ table th{
     text-align: center;
     font-weight: bold;
 }
+
+
+.users-table--delete4{
+    background: #b11e1e;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
